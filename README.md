@@ -13,3 +13,4 @@ My coding practice stuff, mainly focus on DSA problems from places like Hackerra
 ## Resources for Explaining solutions
 
 - Neetcode
+- DesignGuru
