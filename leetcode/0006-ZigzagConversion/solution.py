@@ -14,10 +14,10 @@ class Solution:
         for char in s:
             zigzag[current_row].append(char)
             # if at top, need to go down
-            if i == 0:
+            if current_row == 0:
                 step = 1
             # if we reach bottom, turn back up
-            elif i == numRows - 1:
+            elif current_row == numRows - 1:
                 step = -1
             current_row+=step
         
