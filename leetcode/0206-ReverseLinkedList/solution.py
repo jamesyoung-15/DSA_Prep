@@ -7,6 +7,8 @@ class ListNode:
         self.next = next
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        # iterative approach: reverse the linked list in place
+        # time: O(n), space: O(1)
         prev = None
         current = head
         
@@ -18,6 +20,17 @@ class Solution:
             current = next_node
         # return prev as current will be none
         return prev
+    
+        # recursive approach: reverse the linked list recursively by breaking it down into smaller problems
+        # if not head or not head.next:
+            # return head
+        # reverse the rest of the list
+        # new_head = self.reverseList(head.next)
+        # point the next node to head
+        # head.next.next = head
+        # head.next = None
+        # return new_head
+
 
 # time: O(n), space: O(1)
 
