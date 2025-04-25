@@ -4,13 +4,14 @@ My coding practice stuff, mainly focus on DSA problems from places like Hackerra
 
 ## Resources
 
-## Resources for Finding Problems
+### Resources for Finding Problems
 
 - Hackerrank Interview Prep
 - Leetcode
 - CSES
+- Cracking the Coding Interview
 
-## Resources for Explaining solutions
+### Resources for Learning DSA
 
 - Neetcode
 - DesignGuru
